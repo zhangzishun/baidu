@@ -1,0 +1,30 @@
+﻿*{                /* "*"为同用选择器*/
+   margin:0;
+   padding:0;
+}
+.container{
+ position:absolute;
+ width:400px;
+ height:200px;
+ background-color:#ccc;
+ top:50%;
+ left:50%;
+ margin-left:-200px;/*top,left偏移量均从元素左上角开始，居中需折去部分量*/
+ margin-top:-100px;
+}
+.part_lu{
+ width: 50px;
+ height: 50px;
+ position:absolute;
+ border-radius: 0 0 50px 0;
+ background-color:#FC0;
+}
+.part_rb{
+ width: 50px;
+ height: 50px;
+ position:absolute;
+ border-radius: 50px 0 0 0;/*为(正方形)元素添加圆角边框，从左上角顺时针赋值*/
+ background-color:#FC0;
+ right:0;
+ bottom:0;
+}

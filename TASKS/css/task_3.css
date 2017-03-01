@@ -1,0 +1,66 @@
+*{
+   padding:     20px;
+  font-family: "Œ¢»Ì—≈∫⁄";
+  font-size:   15px;
+}
+h2{
+  margin:      0px;
+}
+/**********************’˚∏ˆøÚº‹…Ë÷√***********************************/
+.main_wrapper{
+margin:        0 auto;
+  padding:     20px;
+  background:  #eee;
+  border:      10px solid #999;
+  overflow:    auto;
+  min-width:   600px;
+}
+/***************◊Û¿∏…Ë÷√*************************/
+.mylogo{
+  float:       left;
+  padding:     20px;
+  width:       160px;
+  background:  #fff;
+  border:      1px solid #999;
+}
+.team_logo{
+  float: left;
+}
+.team_name{
+  width:        180px;
+  font-size:    13px;
+  font-weight:  bold;
+  text-align:   center;
+}
+/***************”“¿∏…Ë÷√*************************/
+.myphoto{
+  width:        120px;
+  float:        right;
+  background:   #fff;
+  border:       1px solid #999;
+
+}
+.members_logo{
+  background:    #fff;
+  display:       block;
+  margin:        0px;
+  border:        1px solid #999;
+}
+/***************÷–¿∏…Ë÷√*************************/
+.mystory{
+  padding:       20px;
+  margin-left:   220px;
+  margin-right:  180px;
+  background:    #fff;
+  border:        1px solid #999;
+}
+/***************µ◊≤ø…Ë÷√*************************/
+footer{
+    width:       100%;
+    height:      50px;
+    background:  black;
+    color:       white;
+    text-align:  center;
+    line-height: 50px;
+    font-size:   14px;
+}
