@@ -1,0 +1,132 @@
+body{
+  font-family:  "ºÚÌå";
+    font-size:  14px;
+       margin:  0px;
+       border:  0px;
+   background:  #DEDEDE;
+    min-width:  700px;
+}
+/******************head*********************************/
+header{
+       height:  70px;
+        width:  100%;
+   background-color:  #333;
+}
+
+header ul{
+     position:  absolute;
+	  top:  -15px;
+	right:  10px;
+}
+
+header ul li {
+	width:  60px;
+      display:  block;
+        float:  left;
+      padding:  30px 10px 0px 10px;
+       height:  40px;
+   margin-top£º -10px;		
+margin-bottom£º 10px;
+}
+
+header ul li a{
+  text-decoration:  none;
+            color:  white;
+        font-size:  12px;
+		   
+}
+
+header ul li:hover{
+    border-bottom:  1px solid #333;
+       background:  green;
+    border-radius:  3px;
+}
+
+/****************body**********************************/
+
+main{
+       margin-top:  40px;
+ background-color:  #fff;
+      margin-left:  40px;
+     margin-right:  450px;
+          padding:  20px;
+      line-height:  1.5;
+    margin-bottom:  20px;
+       box-shadow:  2px 2px 2px #848484;
+}
+
+.shitu ul li {
+	    width:  110px;
+           height:  154px;	 
+  list-style-type:  none; 
+          display:  block;
+          padding:  0px  auto;
+	    float:  left;
+}
+
+.shitu{
+         overflow:  hidden;
+}
+
+aside{
+         position:  absolute;
+           right :  0px;
+       background:  #fff;
+            width:  350px;
+          padding:  20px;
+           margin:  40px 20px 0 40px;
+       box-shadow:  2px 2px 2px #848484;
+
+}
+
+aside h4{
+	 
+           height:  40px;
+      line-height:  40px;
+     padding-left:  10px;
+      border-left:  3px solid #ccc;
+}
+
+aside .submitButton:hover{
+       background:  #0063dc;
+}
+
+aside{
+         overflow:  hidden;
+}
+
+.input_message{
+	
+            float:  left;           
+       text-align:  right;
+            width:  30%;
+    padding-right:  15px;
+}
+
+.demand{
+        font-size:  14px;
+            color:  gray;
+      margin-left:  35.5%;
+       margin-top:  10px;
+}
+
+.submitButton{
+            width:  100%;
+           height:  40px;
+       background:  #3355D0;
+            color:  #fff;
+           cursor:  pointer;
+    border-radius:  8px;
+           border:  1px solid #3355D0;
+      font-weight:  800;
+}
+/*******************footer******************************/
+footer{
+           width:  100%;
+          height:  50px;
+      background:  black;
+           color:  white;
+      text-align:  center;
+     line-height:  50px;
+       font-size:  14px;
+}
