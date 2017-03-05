@@ -54,6 +54,18 @@ main{
     margin-bottom:  20px;
        box-shadow:  2px 2px 2px #848484;
 }
+article table{
+            width:  100%;
+  border-collapse:  collapse;
+}
+article table tr th{
+            color:  white;
+       background:  #333;
+}
+article table tr td{
+           border:  1px solid #ccc;
+}	
+
 
 .shitu ul li {
 	    width:  110px;
